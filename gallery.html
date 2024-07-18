@@ -4,8 +4,63 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>gallery page</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .gallery-box{
+            display: inline-block;
+            position: relative;
+            width: 40%;
+            margin: 40px;
+        }
+
+        .gallery-box p {
+            position: absolute;
+            top: 80%;
+            left: 50%;
+            color: white;
+            background-color: red;
+            font-size: 120%;
+        }
+    </style>
 </head>
 <body>
+    <header>
+        <div class="title">
+            <h1 class="main-heading">Mario Adventure Club</h1>
+            </div>
+            <div class="navbar">
+                <a href="index.html"class="navbar-link">Home</a>
+                <a href="friends.html"class="navbar-link">Friends</a>
+                <a href="contact.html"class="navbar-link">Contact</a>
+                <a href="gallery.html"class="navbar-link">Gallery</a>
+            </div> 
+    </header>
+
+    <main>
+        <h1>Gallery</h1>
+        <div class="gallery_pictures">
+           <div class="gallery-box">
+            <img src="img/thumb-1.png" alt="...">
+            <p id="mount">mountain</p>
+            </div>
+            <div class="gallery-box"> 
+                <img src="img/thumb-2.png" alt="...">
+                <p id="water">water mode</p>
+            </div>
+        <div class="gallery-box">
+            <img src="img/thumb-3.jpg" alt="...">
+            <p id="draw">drawing</p>
+        </div>
+        <div class="gallery-box">
+            <img src="img/thumb-4.jpg" alt="...">
+            <p id="animated">anime mode</p>
+            
+        </div>
+        </div>
+<footer>
+    <h5 class="copyright">&copy; 2024 Orna Nyikwagh Justin</h5>
+</footer>
+    
     
 </body>
 </html>

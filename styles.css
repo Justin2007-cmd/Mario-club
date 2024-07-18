@@ -6,14 +6,14 @@
     padding: 0;
 }
 /* header styles */
-header div{
+header div.title{
     text-align: center;
     background-color: red;
     padding: 20px;
 
 
 }
-header div h1.main-heading{
+header div.title h1.main-heading{
     color: white;
     border: white 4px solid;
     border-radius: 20px;
@@ -30,6 +30,56 @@ header div.navbar a.navbar-link{
     color: white;
     margin: 100px;
     text-decoration: none;
+    padding: 30px;
 }
 /* main styles */
+main img.mario-image {
+    width: 100%;
+    border-bottom: red solid 4px;
+}
 
+main div.main-content{
+    margin: 30px 60px;
+    text-align: center;
+}
+main div.main-content h1{
+    color: red;
+
+}
+
+main div.main-content p{
+    padding: 0px 30px;
+    text-align: justify;
+    line-height: 35px;
+}
+
+footer h5.copyright{
+    background-color: gray;
+    padding: 10px 10px;
+    text-align: center;
+    color: white;
+
+}
+
+main h1 {
+    color: red;
+    text-align: center;
+    margin: 20px 0px;
+}
+
+div.mario_friends{
+    text-align: center;
+}
+
+div.friends{
+    margin: 50px;
+
+}
+
+div.friend{
+    text-align: center;
+    background-color: lightgray;
+    border-radius: 30px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
